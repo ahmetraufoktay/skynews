@@ -12,8 +12,8 @@ export default function Heading() {
       </div>
       <Search></Search>
       <div>
-        <img src={lightmode} alt="lightmode" />
-        <img src={darkmode} alt="darkmode" />
+        <img className="basic-logos" src={lightmode} alt="lightmode" />
+        <img className="basic-logos" src={darkmode} alt="darkmode" />
       </div>
     </header>
   );

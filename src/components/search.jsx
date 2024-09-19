@@ -14,7 +14,7 @@ export default function Search() {
   return (
     <section className="searchbar" role="search" onBlur={handleBlur}>
       <button className="searchbutton">
-        <img src={searchSvg} alt="searchButton" />
+        <img className="basic-logos" src={searchSvg} alt="searchButton" />
       </button>
       <input
         type="search"
@@ -31,7 +31,7 @@ export default function Search() {
           transition: "all .2s",
         }}
       >
-        <img src={filterSvg} alt="filterButton" />
+        <img className="basic-logos" src={filterSvg} alt="filterButton" />
       </button>
     </section>
   );

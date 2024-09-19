@@ -15,16 +15,20 @@ export default function NavInfo() {
         </div>
         <div className="nav-social">
           <a href="https://x.com/skylabkulubu">
-            <img src={twittersvg} alt="twitterpage" />
+            <img className="basic-logos" src={twittersvg} alt="twitterpage" />
           </a>
           <a href="https://www.instagram.com/ytuskylab/">
-            <img src={instagramsvg} alt="instagrampage" />
+            <img
+              className="basic-logos"
+              src={instagramsvg}
+              alt="instagrampage"
+            />
           </a>
           <a href="https://yildizskylab.com/">
-            <img src={skylablogo} alt="skylabpage" />
+            <img className="basic-logos" src={skylablogo} alt="skylabpage" />
           </a>
           <a href="https://github.com/ahmetraufoktay/skynews">
-            <img src={githubsvg} alt="githubpage" />
+            <img className="basic-logos" src={githubsvg} alt="githubpage" />
           </a>
         </div>
       </div>

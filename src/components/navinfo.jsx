@@ -1,3 +1,8 @@
+import twittersvg from "../assets/x-social.svg";
+import instagramsvg from "../assets/instagram.svg";
+import skylablogo from "../assets/skylab.png";
+import githubsvg from "../assets/github.svg";
+
 export default function NavInfo() {
   return (
     <nav>
@@ -9,18 +14,18 @@ export default function NavInfo() {
           </h4>
         </div>
         <div className="nav-social">
-          <button>
-            <img src="" alt="twitterpage" />
-          </button>
-          <button>
-            <img src="" alt="instagrampage" />
-          </button>
-          <button>
-            <img src="" alt="skylabpage" />
-          </button>
-          <button>
-            <img src="" alt="githubpage" />
-          </button>
+          <a href="https://x.com/skylabkulubu">
+            <img src={twittersvg} alt="twitterpage" />
+          </a>
+          <a href="https://www.instagram.com/ytuskylab/">
+            <img src={instagramsvg} alt="instagrampage" />
+          </a>
+          <a href="https://yildizskylab.com/">
+            <img src={skylablogo} alt="skylabpage" />
+          </a>
+          <a href="https://github.com/ahmetraufoktay/skynews">
+            <img src={githubsvg} alt="githubpage" />
+          </a>
         </div>
       </div>
     </nav>

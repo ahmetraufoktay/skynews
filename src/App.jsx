@@ -11,6 +11,9 @@ function App() {
         <MainPage></MainPage>
         <Aside></Aside>
       </div>
+      <footer
+        style={{ backgroundColor: "black", width: "100%", height: "60px" }}
+      ></footer>
     </>
   );
 }

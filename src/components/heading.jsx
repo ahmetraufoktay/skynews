@@ -54,11 +54,11 @@ export default function Heading() {
         <img src={weblablogo} alt="skynews" />
         <h1>SKYNEWS</h1>
       </div>
-      <div>
+      <div className="searchTab">
         <Search setResults={setResults}></Search>
         <SearchResults results={results}></SearchResults>
       </div>
-      <div style={{ display: "flex", gap: "20px" }}>
+      <div>
         <img
           onClick={changeMode}
           className="basic-logos usermode"
